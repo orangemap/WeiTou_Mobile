@@ -1,0 +1,117 @@
+﻿{
+  "province": {
+    "item": [
+      {
+        "orgCode": "8637",
+	"proCode":"410000",
+        "orgName": "河南分公司",
+	"proname":"河南省"
+      },{
+        "orgCode": "8645",
+	"proCode":"230000",
+        "orgName": "黑龙江分公司",
+	"proname":"黑龙江省"
+      },{
+        "orgCode": "8633",
+	"proCode":"330000",
+        "orgName": "浙江分公司",
+	"proname":"浙江省"
+      },{
+        "orgCode": "8627",
+	"proCode":"420000",
+        "orgName": "湖北分公司",
+	"proname":"湖北省"
+      },{
+        "orgCode": "8653",
+	"proCode":"370000",
+        "orgName": "山东分公司",
+	"proname":"山东省"
+      },{
+        "orgCode": "8634",
+	"proCode":"320000",
+        "orgName": "苏州分公司",
+	"proname":"江苏省"
+      },{
+        "orgCode": "8635",
+	"proCode":"330000",
+        "orgName": "宁波分公司",
+	"proname":"浙江省"
+      },{
+        "orgCode": "8641",
+	"proCode":"430000",
+        "orgName": "湖南分公司",
+	"proname":"湖南省"
+      },{
+        "orgCode": "8648",
+	"proCode":"440000",
+        "orgName": "深圳分公司",
+	"proname":"广东省"
+      },{
+        "orgCode": "8651",
+	"proCode":"440000",
+        "orgName": "广东分公司",
+	"proname":"广东省"
+      },{
+        "orgCode": "8661",
+	"proCode":"500000",
+        "orgName": "重庆分公司",
+	"proname":"重庆"
+      },{
+        "orgCode": "8611",
+	"proCode":"110000",
+        "orgName": "北京分公司",
+	"proname":"北京"
+      },{
+        "orgCode": "8612",
+	"proCode":"120000",
+        "orgName": "天津分公司",
+	"proname":"天津"
+      },{
+        "orgCode": "8613",
+	"proCode":"130000",
+        "orgName": "河北分公司",
+	"proname":"河北省"
+      },{
+        "orgCode": "8614",
+	"proCode":"140000",
+        "orgName": "山西分公司",
+	"proname":"山西省"
+      },{
+        "orgCode": "8621",
+	"proCode":"210000",
+        "orgName": "辽宁分公司",
+	"proname":"辽宁省"
+      },{
+        "orgCode": "8631",
+	"proCode":"310000",
+        "orgName": "上海分公司",
+	"proname":"上海"
+      },{
+        "orgCode": "8632",
+	"proCode":"320000",
+        "orgName": "江苏分公司",
+	"proname":"江苏省"
+      },{
+        "orgCode": "8636",
+	"proCode":"340000",
+        "orgName": "安徽分公司",
+	"proname":"安徽省"
+      },{
+        "orgCode": "8622",
+	"proCode":"210000",
+        "orgName": "大连分公司",
+	"proname":"辽宁省"
+      },{
+        "orgCode": "8623",
+	"proCode":"610000",
+        "orgName": "陕西分公司",
+	"proname":"陕西省"
+      },{
+        "orgCode": "8628",
+	"proCode":"510000",
+        "orgName": "四川分公司",
+	"proname":"四川省"
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+[
+    {
+        "code": "A00001",
+        "swh":false,
+        "isBuild":"Y",
+        "questionRemark":"",
+        "questionNo":"1",
+        "resCustCode":"",
+        "weight":"",
+        "height":""
+    },
+    {
+        "code": "A00002",
+        "desc": "是否有吸烟超过10支/天或饮酒（相当于白酒）超过50克/天？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"2",
+        "resCustCode":""
+    },
+    {
+        "code": "A00027",
+        "desc": "是否有其他寿险公司已生效或正在申请的保险单？是否有寿险公司理赔经历？是否曾被拒保延期、附加条件承保、限额承保、或未接受以上承保条件而撤销投保申请？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"3",
+        "resCustCode":""
+    },
+    {
+        "code": "A00005",
+        "desc": "是否曾从事过滑翔飞行、私人飞行、驾驶航空机具、潜水、滑水、滑雪、登山、跳伞、马术、特技表演及赛车活动？或现在正准备参加以上活动？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"4",
+        "resCustCode":""
+    },
+    {
+        "code": "A00007",
+        "desc": "近一年是否有出国工作或居住计划？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"5",
+        "resCustCode":""
+    },
+    {
+        "code": "A00028",
+        "desc": "两年内是否曾体检而结果异常？是否接受或被建议用药、手术、住院等治疗（不包括感冒、流感、怀孕、分娩）？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"6",
+        "resCustCode":""
+    },
+    {
+        "code": "A00010",
+        "desc": "是否患先天性或遗传相关因素疾病？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"7",
+        "resCustCode":""
+    },
+    {
+        "code": "100000008",
+        "desc": "您是否曾经或正在有下列症状、或患有下列疾病：",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_a",
+        "desc": "脑、神经系统及精神方面疾病，如：帕金森氏病/综合征、阿尔兹海默氏症、重症肌无力、多发性硬化、反复头痛或眩晕、癫痫、脑血管畸形、脑梗塞、脑出血、短暂性脑缺血发作、脑血管意外、脑瘤、脑部需要或已经手术治疗的疾病、脊髓疾病、智力障碍、精神分裂症、神经官能症、抑郁症、神经衰弱、情感障碍、人格障碍、进食障碍；",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-a",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_b",
+        "desc": "心血管的疾病，如：高血压（收缩压140mmHg以上或舒张压90mmHg以上）、冠心病、心肌梗塞、心绞痛、心律失常、先天性心脏病、风湿性心脏病、心内膜炎、心肌病、甲亢性心脏病、室壁瘤、动脉瘤、心力衰竭，被建议进一步检查或治疗的心慌及胸闷、胸痛、原因不明的晕厥、心脏杂音，或被建议进行心导管等心血管介入治疗；",
+   		"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-b",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_c",
+        "desc": "呼吸系统疾病，如：反复咳嗽咳痰、咯血、气喘、呼吸困难、慢性支气管炎、肺气肿、肺心病、哮喘、支气管扩张、肺结核、尘肺、间质性肺病、肺纤维化、胸腔积液、呼吸衰竭；",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-c",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_d",
+        "desc": "消化系统疾病, 如: 肝区疼痛、肝功能异常、黄疸、便血、食道静脉曲张、胃和/或十二指肠溃疡、胰腺炎、胰腺假性囊肿、肝炎、乙肝病毒携带、肝囊肿、多囊肝、肝硬化、肝血管瘤、肝内胆管炎、胆结石、胆囊息肉、脾肿大、慢性或溃疡性结肠炎、肠息肉、腹部外伤或手术史",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-d",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_e",
+        "desc": "泌尿系统疾病, 如: 尿糖阳性、血尿、蛋白尿、反复尿路感染、尿路畸形、肾移植、肾积水、肾囊肿、多囊肾、肾结石、尿毒症、肾病综合症、肾脏功能异常、急慢性肾炎、前列腺疾病、泌尿系统外伤或手术史；",
+   		"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-e",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_f",
+        "desc": "骨骼、肌肉、结缔组织的疾病, 如: 关节红肿或酸痛、类风湿关节炎、强直性脊柱炎、椎间盘突出、股骨头坏死、骨关节炎、肌营养不良症、肌肉萎缩、系统性红斑性狼疮、干燥综合症；",
+   		"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-f",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_g",
+        "desc": "内分泌、血液系统疾病, 如: 血糖升高、糖尿病、痛风、高尿酸血症、高脂血症、甲状腺或甲状旁腺疾病、脑垂体功能亢进、肾上腺功能亢进或低下、贫血、脾功能亢进、白血病、淋巴瘤、血友病、再生障碍性贫血、紫癜、原因不明的发热、原因不明皮肤和粘膜及齿龈出血；",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-g",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_h",
+        "desc": "五官科疾病, 如: 原因不明的声音嘶哑、听力下降、耳鸣、复视、视力下降、美尼尔病、白内障、青光眼、视神经病变，视网膜出血或剥离；",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-h",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_i",
+        "desc": "曾经或当前患有恶性肿瘤、原因不明的发热、体重明显变化（一年内增加或减少超过5公斤) 、原因不明的淋巴结肿大、未证实为良性或恶性之肿瘤、肿块、息肉、囊肿、赘生物、结节、黑痣增大；",
+    	"swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-i",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_j",
+        "desc": "五官、脊柱、胸廓、四肢、手足畸形或残疾；",
+	    "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-j",
+        "resCustCode":""
+    },
+    {
+        "code": "A00011_k",
+        "desc": "职业病、酒精中毒、吸毒、药物成瘾、化学品滥用、患艾滋病或感染艾滋病病毒？",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"8-k",
+        "resCustCode":""
+    },
+    {
+        "code": "A00012",
+        "desc": "您的父母、兄弟姐妹中有两人或以上在60岁以前因病去世?",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"9",
+        "resCustCode":""
+    },
+    {
+        "code": "A00013",
+        "desc": "女性告知：是否怀孕？是否曾患子宫、卵巢等妇科疾病？是否曾有异常出血或下腹部手术（剖腹产除外）、放射性治疗等？若已怀孕，请填写怀孕日期：       年       月      日",
+        "visible": "GENDERCODE|eq|2",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"10",
+        "resCustCode":""
+    },
+    {
+        "code": "A00014",
+        "desc": "被保险人年龄在6 周岁及以下时，请告知：a：被保险人出生时是否早产小于34 周或体重低于2 公斤？b.是否难产或有窒息史?",
+        "visible": "AGE|le|6",
+        "swh":false,
+        "isBuild":"N",
+        "questionRemark":"",
+        "questionNo":"11",
+        "resCustCode":""
+    }
+]

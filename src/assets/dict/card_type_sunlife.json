@@ -1,0 +1,57 @@
+{
+	"dict_cardtype": {
+		"item": [
+			{
+				"code": "11",
+				"remark": "CHN",
+				"maxle": "",
+				"text": "身份证"
+			}, {
+				"code": "12",
+				"remark": "CHN",
+				"maxle": "",
+				"text": "户口本"
+			}, {
+				"code": "17",
+				"remark": "CHN",
+				"minle": "3",
+				"maxle": "20",
+				"text": "中国护照"
+			}, {
+				"code": "24",
+				"remark": "!CHN,!HKG,!MAC,!TWN",
+				"minle": "3",
+				"maxle": "20",
+				"text": "外国护照"
+			}, {
+				"code": "23",
+				"remark": "CHN",
+				"minle": "3",
+				"maxle": "20",
+				"text": "台胞证"
+			}, {
+				"code": "26",
+				"remark": "CHN,HKG,MAC",
+				"minle": "3",
+				"maxle": "20",
+				"text": "港澳通行证"
+			}, {
+				"code": "20",
+				"remark": "CHN",
+				"minle": "4",
+				"maxle": "20",
+				"text": "出生证"
+			}, {
+				"code": "29",
+				"remark": "!CHN,!HKG,!MAC,!TWN",
+				"minle": "5",
+				"maxle": "20",
+				"text": "外国人永久居留身份证"
+			}, {
+				"code": "30",
+				"remark": "HKG,MAC,TWN",
+				"text": "港澳台居住证"
+			}
+		]
+	}
+}

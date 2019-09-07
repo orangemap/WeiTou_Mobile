@@ -1,0 +1,855 @@
+{
+  "declare": {
+    "parameter": {
+      "pay_freq": {
+        "item": [
+          {
+            "code": "single",
+            "value": "0",
+            "show": "趸交"
+          },
+          {
+            "code": "year",
+            "value": "1",
+            "show": "年交"
+          },
+          {
+            "code": "month",
+            "value": "2",
+            "show": "月交"
+          },
+          {
+            "code": "season",
+            "value": "3",
+            "show": "季交"
+          },
+          {
+            "code": "half_year",
+            "value": "4",
+            "show": "半年交"
+          },
+          {
+            "code": "none",
+            "value": "0",
+            "show": ""
+          },
+          {
+            "code": "parent",
+            "value": "PARENT.pay_freq.VALUE",
+            "desc": "PARENT.pay_freq.DESC",
+            "show": "同主险"
+          }
+        ]
+      },
+      "pay": {
+        "item": [
+          {
+            "code": "single",
+            "value": "1",
+            "show": "趸交"
+          },
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "1年期"
+          },
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "2年期"
+          },
+          {
+            "code": "term_3",
+            "value": "3",
+            "show": "3年期"
+          },
+          {
+            "code": "term_4",
+            "value": "4",
+            "show": "4年期"
+          },
+          {
+            "code": "term_5",
+            "value": "5",
+            "show": "5年期"
+          },
+          {
+            "code": "term_6",
+            "value": "6",
+            "show": "6年期"
+          },
+          {
+            "code": "term_10",
+            "value": "10",
+            "show": "10年期"
+          },
+          {
+            "code": "to_12_full",
+            "value": "12",
+            "show": "交至12周岁"
+          },
+          {
+            "code": "term_15",
+            "value": "15",
+            "show": "15年期"
+          },
+          {
+            "code": "to_15_full",
+            "value": "15",
+            "show": "交至15周岁"
+          },
+          {
+            "code": "to_18_full",
+            "value": "18",
+            "show": "交至18周岁"
+          },
+          {
+            "code": "term_19",
+            "value": "19",
+            "show": "19年期"
+          },
+          {
+            "code": "term_20",
+            "value": "20",
+            "show": "20年期"
+          },
+          {
+            "code": "term_25",
+            "value": "25",
+            "show": "25年期"
+          },
+          {
+            "code": "term_30",
+            "value": "30",
+            "show": "30年期"
+          },
+          {
+            "code": "to_45_full",
+            "mode": "1",
+            "value": "45",
+            "show": "交至45周岁"
+          },
+          {
+            "code": "to_50",
+            "value": "50",
+            "show": "至50周岁"
+          },
+          {
+            "code": "to_50_full",
+            "value": "50",
+            "show": "交至50周岁"
+          },
+          {
+            "code": "to_55",
+            "value": "55",
+            "show": "至55周岁"
+          },
+          {
+            "code": "to_55_full",
+            "value": "55",
+            "show": "交至55周岁"
+          },
+          {
+            "code": "to_60",
+            "value": "60",
+            "show": "至60周岁"
+          },
+          {
+            "code": "to_60_full",
+            "value": "60",
+            "show": "交至60周岁"
+          },
+          {
+            "code": "to_65",
+            "value": "65",
+            "show": "至65周岁"
+          },
+          {
+            "code": "to_65_full",
+            "value": "65",
+            "show": "交至65周岁"
+          },
+          {
+            "code": "to_70_full",
+            "value": "70",
+            "show": "交至70周岁"
+          },
+          {
+            "code": "none",
+            "value": "0",
+            "show": ""
+          },
+          {
+            "code": "insure",
+            "mode": "insure.MODE",
+            "value": "insure.VALUE",
+            "desc": "insure.DESC",
+            "show": "同保险期间"
+          },
+          {
+            "code": "input",
+            "value": "THIS.YEAR",
+            "desc": "THIS.YEAR+'年期'",
+            "show": "自定义"
+          },
+          {
+            "code": "exempt",
+            "value": "PARENT.PAY_PERIOD1",
+            "desc": "round(PARENT.PAY_PERIOD1)+'年期'",
+            "show": "豁免期间"
+          },
+          {
+            "code": "exempt1",
+            "value": "case(PARENT.PAY_VALUE gt 30,PARENT.PAY_VALUE1AGE,PARENT.PAY_VALUE1)",
+            "desc": "round(case(PARENT.PAY_VALUE gt 30,PARENT.PAY_VALUE1AGE,PARENT.PAY_VALUE1))+'年期'",
+            "show": "豁免期间"
+          },
+          {
+            "code": "draw",
+            "mode": "1",
+            "value": "THIS.DRAW_AGE",
+            "desc": "'至'+DRAW_AGE+'周岁'",
+            "show": "交至领取"
+          },
+          {
+            "code": "parent",
+            "mode": "PARENT.PAY_MODE",
+            "value": "PARENT.PAY_VALUE",
+            "desc": "PARENT.PAY_DESC",
+            "show": "同主险"
+          }
+        ]
+      },
+      "insure": {
+        "item": [
+          {
+            "code": "month_1",
+            "mode": "2",
+            "value": "1",
+            "show": "1个月"
+          },
+          {
+            "code": "month_2",
+            "mode": "2",
+            "value": "2",
+            "show": "2个月"
+          },
+          {
+            "code": "month_3",
+            "mode": "2",
+            "value": "3",
+            "show": "3个月"
+          },
+          {
+            "code": "month_4",
+            "mode": "2",
+            "value": "4",
+            "show": "4个月"
+          },
+          {
+            "code": "month_5",
+            "mode": "2",
+            "value": "5",
+            "show": "5个月"
+          },
+          {
+            "code": "month_6",
+            "mode": "2",
+            "value": "6",
+            "show": "6个月"
+          },
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "1年期"
+          },
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "2年期"
+          },
+          {
+            "code": "term_3",
+            "value": "3",
+            "show": "3年期"
+          },
+          {
+            "code": "term_5",
+            "value": "5",
+            "show": "5年期"
+          },
+          {
+            "code": "term_10",
+            "value": "10",
+            "show": "10年期"
+          },
+          {
+            "code": "term_12",
+            "value": "12",
+            "show": "12年期"
+          },
+          {
+            "code": "term_15",
+            "value": "15",
+            "show": "15年期"
+          },
+          {
+            "code": "term_16",
+            "value": "16",
+            "show": "16年期"
+          },
+          {
+            "code": "term_20",
+            "value": "20",
+            "show": "20年期"
+          },
+          {
+            "code": "term_25",
+            "value": "25",
+            "show": "25年期"
+          },
+          {
+            "code": "term_30",
+            "value": "30",
+            "show": "30年期"
+          },
+          {
+            "code": "term_59",
+            "value": "59",
+            "show": "59年期"
+          },
+          {
+            "code": "to_14",
+            "mode": "1",
+            "value": "14",
+            "show": "至14岁"
+          },
+          {
+            "code": "to_17",
+            "mode": "1",
+            "value": "17",
+            "show": "至17岁"
+          },
+          {
+            "code": "to_18",
+            "mode": "1",
+            "value": "18",
+            "show": "至18岁"
+          },
+          {
+            "code": "to_21",
+            "mode": "1",
+            "value": "21",
+            "show": "至21岁"
+          },
+          {
+            "code": "to_25",
+            "mode": "1",
+            "value": "25",
+            "show": "至25岁"
+          },
+          {
+            "code": "to_28",
+            "mode": "1",
+            "value": "28",
+            "show": "至28岁"
+          },
+          {
+            "code": "to_40",
+            "mode": "1",
+            "value": "40",
+            "show": "至40岁"
+          },
+          {
+            "code": "to_45",
+            "mode": "1",
+            "value": "45",
+            "show": "至45周岁"
+          },
+          {
+            "code": "to_50",
+            "mode": "1",
+            "value": "50",
+            "show": "至50周岁"
+          },
+          {
+            "code": "to_55",
+            "mode": "1",
+            "value": "55",
+            "show": "至55周岁"
+          },
+          {
+            "code": "to_60",
+            "mode": "1",
+            "value": "60",
+            "show": "至60周岁"
+          },
+          {
+            "code": "to_64",
+            "mode": "1",
+            "value": "64",
+            "show": "至64周岁"
+          },
+          {
+            "code": "to_65",
+            "mode": "1",
+            "value": "65",
+            "show": "至65周岁"
+          },
+          {
+            "code": "to_70",
+            "mode": "1",
+            "value": "70",
+            "show": "至70周岁"
+          },
+          {
+            "code": "to_75",
+            "mode": "1",
+            "value": "75",
+            "show": "至75周岁"
+          },
+          {
+            "code": "to_80",
+            "mode": "1",
+            "value": "80",
+            "show": "至80周岁"
+          },
+          {
+            "code": "to_full_80",
+            "mode": "1",
+            "value": "80",
+            "show": "保至80周岁"
+          },
+          {
+            "code": "to_85",
+            "mode": "1",
+            "value": "85",
+            "show": "至85岁"
+          },
+          {
+            "code": "to_88",
+            "mode": "1",
+            "value": "88",
+            "show": "至88岁"
+          },
+          {
+            "code": "to_full_88",
+            "mode": "1",
+            "value": "88",
+            "show": "保至88周岁"
+          },
+          {
+            "code": "to_100",
+            "mode": "1",
+            "value": "100",
+            "show": "至100岁"
+          },
+          {
+            "code": "to_full_100",
+            "mode": "1",
+            "value": "100",
+            "show": "保至100周岁"
+          },
+          {
+            "code": "to_105",
+            "mode": "1",
+            "value": "105",
+            "show": "至105岁"
+          },
+          {
+            "code": "to_106",
+            "mode": "1",
+            "value": "106",
+            "show": "至106岁"
+          },
+          {
+            "code": "to_full",
+            "mode": "1",
+            "value": "106",
+            "show": "保终身"
+          },
+          {
+            "code": "to_101",
+            "mode": "1",
+            "value": "101",
+            "show": "保终身"
+          },
+          {
+            "code": "full_105",
+            "mode": "1",
+            "value": "105",
+            "show": "保終身"
+          },
+          {
+            "code": "full_106",
+            "mode": "1",
+            "value": "106",
+            "show": "保終身"
+          },
+          {
+            "code": "full_110",
+            "mode": "1",
+            "value": "110",
+            "show": "保終身"
+          },
+          {
+            "code": "to_end",
+            "value": "THIS.YEAR",
+            "desc": "THIS.YEAR==105? '终身' :'至'+round(THIS.YEAR)+'岁'",
+            "show": "自定义"
+          },
+          {
+            "code": "pay",
+            "mode": "pay.MODE",
+            "value": "pay.VALUE",
+            "desc": "pay.DESC",
+            "show": "同缴费"
+          },
+          {
+            "code": "input",
+            "value": "THIS.YEAR",
+            "desc": "'至'+THIS.YEAR+'岁'",
+            "show": "'至'+THIS.YEAR+'岁'"
+          },
+          {
+            "code": "parent",
+            "mode": "PARENT.INSURE_MODE",
+            "value": "PARENT.INSURE_VALUE",
+            "desc": "PARENT.INSURE_DESC",
+            "show": "同主险"
+          },
+          {
+            "code": "rank",
+            "value": "0",
+            "desc": "IT.RANK_INSURE_DESC",
+            "show": "按档次"
+          },
+          {
+            "code": "exempt",
+            "value": "PARENT.PAY_PERIOD",
+            "desc": "round(PARENT.PAY_PERIOD)+'年期'",
+            "show": "豁免期间"
+          },
+          {
+            "code": "exempt1",
+            "value": "case(PARENT.PAY_VALUE gt 30,PARENT.PAY_VALUEINSURANT.AGE,PARENT.PAY_VALUE)",
+            "desc": "round(case(PARENT.PAY_VALUE gt 30,PARENT.PAY_VALUEINSURANT.AGE,PARENT.PAY_VALUE))+'年期'",
+            "show": "豁免期间"
+          },
+          {
+            "code": "parent_draw_age",
+            "mode": "PARENT.DRAW_AGE_MODE",
+            "value": "round(PARENT.DRAW_AGE)",
+            "desc": "'至'+round(PARENT.DRAW_AGE)+'周岁'",
+            "show": "同主险"
+          }
+        ]
+      },
+      "draw_freq": {
+        "item": [
+          {
+            "code": "single",
+            "value": "0",
+            "show": "趸领"
+          },
+          {
+            "code": "year",
+            "value": "1",
+            "show": "年领"
+          },
+          {
+            "code": "month",
+            "value": "2",
+            "show": "月领"
+          },
+          {
+            "code": "season",
+            "value": "3",
+            "show": "季领"
+          },
+          {
+            "code": "half_year",
+            "value": "4",
+            "show": "半年领"
+          }
+        ]
+      },
+      "draw_age": {
+        "item": [
+          {
+            "code": "18",
+            "value": "18",
+            "show": "18岁领取"
+          },
+          {
+            "code": "40",
+            "value": "40",
+            "show": "40岁领取"
+          },
+          {
+            "code": "45",
+            "value": "45",
+            "show": "45岁领取"
+          },
+          {
+            "code": "50",
+            "value": "50",
+            "show": "50岁领取"
+          },
+          {
+            "code": "55",
+            "value": "55",
+            "show": "55岁领取"
+          },
+          {
+            "code": "60",
+            "value": "60",
+            "show": "60岁领取"
+          },
+          {
+            "code": "65",
+            "value": "65",
+            "show": "65岁领取"
+          },
+          {
+            "code": "70",
+            "value": "70",
+            "show": "70岁领取"
+          },
+          {
+            "code": "75",
+            "value": "75",
+            "show": "75岁领取"
+          },
+          {
+            "code": "to_18",
+            "mode": "1",
+            "value": "18",
+            "show": "18岁"
+          },
+          {
+            "code": "to_50",
+            "mode": "1",
+            "value": "50",
+            "show": "50岁"
+          },
+          {
+            "code": "to_55",
+            "mode": "1",
+            "value": "55",
+            "show": "55岁"
+          },
+          {
+            "code": "to_60",
+            "mode": "1",
+            "value": "60",
+            "show": "60岁"
+          },
+          {
+            "code": "after_10",
+            "mode": "2",
+            "value": "10",
+            "show": "10年后"
+          },
+          {
+            "code": "after_20",
+            "mode": "2",
+            "value": "20",
+            "show": "20年后"
+          }
+        ]
+      },
+      "draw": {
+        "item": [
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "2年期"
+          },
+          {
+            "code": "term_5",
+            "value": "5",
+            "show": "5年期"
+          },
+          {
+            "code": "term_10",
+            "value": "10",
+            "show": "10年期"
+          },
+          {
+            "code": "term_15",
+            "value": "15",
+            "show": "15年期"
+          },
+          {
+            "code": "term_20",
+            "value": "20",
+            "show": "20年期"
+          },
+          {
+            "code": "full_105",
+            "value": "105",
+            "show": "终身"
+          }
+        ]
+      },
+      "draw_mode": {
+        "item": {
+          "code": "term_20",
+          "value": "20",
+          "show": "20年终身领取"
+        }
+      },
+      "rank": {
+        "item": [
+          {
+            "code": "1",
+            "value": "1",
+            "show": "一档"
+          },
+          {
+            "code": "2",
+            "value": "2",
+            "show": "二档"
+          },
+          {
+            "code": "3",
+            "value": "3",
+            "show": "三档"
+          },
+          {
+            "code": "4",
+            "value": "4",
+            "show": "四档"
+          },
+          {
+            "code": "5",
+            "value": "5",
+            "show": "五档"
+          },
+          {
+            "code": "6",
+            "value": "6",
+            "show": "六档"
+          },
+          {
+            "code": "7",
+            "value": "7",
+            "show": "七档"
+          },
+          {
+            "code": "8",
+            "value": "8",
+            "show": "八档"
+          },
+          {
+            "code": "9",
+            "value": "9",
+            "show": "九档"
+          },
+          {
+            "code": "10",
+            "value": "10",
+            "show": "十档"
+          },
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "计划一"
+          },
+          {
+            "code": "term_2",
+            "value": "3",
+            "show": "计划二"
+          },
+          {
+            "code": "term_3",
+            "value": "10",
+            "show": "计划三"
+          }
+        ]
+      },
+      "dividend": {
+        "item": [
+          {
+            "code": "interest",
+            "value": "1",
+            "show": "累积生息"
+          },
+          {
+            "code": "premium",
+            "value": "2",
+            "show": "减额缴清"
+          },
+          {
+            "code": "amount",
+            "value": "3",
+            "show": "缴清增额"
+          }
+        ]
+      },
+      "initial_payment": {
+        "item": [
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "自行缴费"
+          },
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "信用卡缴费"
+          },
+          {
+            "code": "term_3",
+            "value": "3",
+            "show": "银行转账"
+          }
+        ]
+      },
+      "renewal_fee": {
+        "item": [
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "自行缴费"
+          },
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "信用卡缴费"
+          },
+          {
+            "code": "term_3",
+            "value": "3",
+            "show": "银行转账"
+          }
+        ]
+      },
+      "collective_exchange": {
+        "item": [
+          {
+            "code": "term_0",
+            "value": "0",
+            "show": "无"
+          },
+          {
+            "code": "term_1",
+            "value": "1",
+            "show": "5人（含）~9人"
+          },
+          {
+            "code": "term_2",
+            "value": "2",
+            "show": "10人（含）~30人"
+          },
+          {
+            "code": "term_3",
+            "value": "3",
+            "show": "30人（含）以上"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.gray {
+	color: #bbb;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hideText {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.process {
+	bottom: 50px;
+}
+
+.process ul {
+	width: 100%;
+	background: #f0f0f0;
+}
+
+.process ul.bgul {
+	padding-top: 10px;
+}
+
+.process ul.products {
+	margin-bottom: 25px;
+}
+
+.process li {
+	width: 100%;
+	background: #fff;
+	min-height: 50px;
+	padding: 0 4%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #EFEFEF;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.process li.active {
+	box-shadow: 0px 0px 8px inset #f00;
+}
+
+.process li.validText {
+	color: #f00;
+	height: 30px;
+	font-size: 14px;
+}
+
+.process li .fa {
+	color: #ccc;
+	line-height: 50px;
+	margin-left: 15px;
+}
+
+.process li .fa-trash-o {
+	font-size: 20px;
+	margin-left: 8px;
+}
+
+.process li>p:first-child {
+	width: 35%;
+	font-size: 16px;
+	color: #333;
+	line-height: 2;
+}
+
+.process li>p:first-child+div {
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.process li>p:first-child+div>input {
+	width: 80%;
+}
+
+.process li>p:first-child+span,
+.process li>p:first-child+p,
+.process li>p:first-child+label,
+.process li>p:first-child+input {
+	width: 65%;
+}
+
+.process li>p:first-child+label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.process li>p:first-child+div .job {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 85%;
+}
+
+.process li>p:first-child+div .rela {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.process input {
+	/*height: 50px;*/
+	/*line-height: 50px;*/
+	text-align: left;
+	font-size: 14px;
+	/*color: #ccc;*/
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.process label input {
+	max-width: 70%;
+}
+
+.process li img {
+	margin-left: 5%;
+	width:18px; 
+}
+
+.process .addIns {
+	width: 100%;
+	line-height: 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FDB92C;
+	font-size: 16px;
+}
+
+.process .extras li {
+	background: #F5F5F5;
+	line-height: 45px;
+}
+
+.process .extras input {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: right;
+	color: #999;
+}

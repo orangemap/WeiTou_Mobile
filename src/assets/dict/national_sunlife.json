@@ -1,0 +1,966 @@
+{
+  "national": {
+    "item": [
+      {
+        "code": "CHN",
+        "text": "中国"
+      },
+      {
+        "code": "HKG",
+        "text": "中国香港"
+      },
+      {
+        "code": "TWN",
+        "text": "中国台湾"
+      },
+      {
+        "code": "MAC",
+        "text": "澳门"
+      },
+      {
+        "code": "YEM",
+        "text": "也门"
+      },
+      {
+        "code": "IRQ",
+        "text": "伊拉克"
+      },
+      {
+        "code": "IRN",
+        "text": "伊朗"
+      },
+      {
+        "code": "ISR",
+        "text": "以色列"
+      },
+      {
+        "code": "ITA",
+        "text": "意大利"
+      },
+      {
+        "code": "IND",
+        "text": "印度"
+      },
+      {
+        "code": "IDN",
+        "text": "印度尼西亚"
+      },
+      {
+        "code": "GBR",
+        "text": "英国"
+      },
+      {
+        "code": "VGB",
+        "text": "英属维尔京群岛"
+      },
+      {
+        "code": "IOT",
+        "text": "英属印度洋领土"
+      },
+      {
+        "code": "JOR",
+        "text": "约旦"
+      },
+      {
+        "code": "VNM",
+        "text": "越南"
+      },
+      {
+        "code": "ZMB",
+        "text": "赞比亚"
+      },
+      {
+        "code": "ZAR",
+        "text": "扎伊尔"
+      },
+      {
+        "code": "TCD",
+        "text": "乍得"
+      },
+      {
+        "code": "GNB",
+        "text": "几内亚比绍"
+      },
+      {
+        "code": "CAN",
+        "text": "加拿大"
+      },
+      {
+        "code": "GHA",
+        "text": "加纳"
+      },
+      {
+        "code": "GAB",
+        "text": "加蓬"
+      },
+      {
+        "code": "KHM",
+        "text": "柬埔寨"
+      },
+      {
+        "code": "CZE",
+        "text": "捷克"
+      },
+      {
+        "code": "ZWE",
+        "text": "津巴布韦"
+      },
+      {
+        "code": "CMR",
+        "text": "喀麦隆"
+      },
+      {
+        "code": "QAT",
+        "text": "卡塔尔"
+      },
+      {
+        "code": "CYM",
+        "text": "开曼群岛"
+      },
+      {
+        "code": "CCK",
+        "text": "科科斯(基林)群岛"
+      },
+      {
+        "code": "COM",
+        "text": "科摩罗"
+      },
+      {
+        "code": "CIV",
+        "text": "科特迪瓦"
+      },
+      {
+        "code": "KWT",
+        "text": "科威特"
+      },
+      {
+        "code": "HRV",
+        "text": "克罗地亚"
+      },
+      {
+        "code": "KEN",
+        "text": "肯尼亚"
+      },
+      {
+        "code": "COK",
+        "text": "库克群岛"
+      },
+      {
+        "code": "LVA",
+        "text": "拉脱维亚"
+      },
+      {
+        "code": "LSO",
+        "text": "莱索托"
+      },
+      {
+        "code": "LAO",
+        "text": "老挝"
+      },
+      {
+        "code": "LBN",
+        "text": "黎巴嫩"
+      },
+      {
+        "code": "LBR",
+        "text": "利比里亚"
+      },
+      {
+        "code": "LBY",
+        "text": "利比亚"
+      },
+      {
+        "code": "LTU",
+        "text": "立陶宛"
+      },
+      {
+        "code": "LIE",
+        "text": "列支敦士登"
+      },
+      {
+        "code": "REU",
+        "text": "留尼汪"
+      },
+      {
+        "code": "LUX",
+        "text": "卢森堡"
+      },
+      {
+        "code": "RWA",
+        "text": "卢旺达"
+      },
+      {
+        "code": "ROM",
+        "text": "罗马尼亚"
+      },
+      {
+        "code": "MDG",
+        "text": "马达加斯加"
+      },
+      {
+        "code": "MLT",
+        "text": "马耳他"
+      },
+      {
+        "code": "FLK",
+        "text": "马尔维纳斯群岛(福克兰群岛)"
+      },
+      {
+        "code": "MWI",
+        "text": "马拉维"
+      },
+      {
+        "code": "MYS",
+        "text": "马来西亚"
+      },
+      {
+        "code": "MLI",
+        "text": "马里"
+      },
+      {
+        "code": "MKD",
+        "text": "马斯顿"
+      },
+      {
+        "code": "MHL",
+        "text": "马绍尔群岛"
+      },
+      {
+        "code": "MTQ",
+        "text": "马提尼克"
+      },
+      {
+        "code": "MYT",
+        "text": "马约特"
+      },
+      {
+        "code": "MUS",
+        "text": "毛里求斯"
+      },
+      {
+        "code": "MRT",
+        "text": "毛里塔尼亚"
+      },
+      {
+        "code": "USA",
+        "text": "美国"
+      },
+      {
+        "code": "ASM",
+        "text": "美属萨摩亚"
+      },
+      {
+        "code": "UMI",
+        "text": "美属本土外小岛屿"
+      },
+      {
+        "code": "VIR",
+        "text": "美属维尔京群岛"
+      },
+      {
+        "code": "MNG",
+        "text": "蒙古"
+      },
+      {
+        "code": "MSR",
+        "text": "蒙特塞拉特"
+      },
+      {
+        "code": "BGD",
+        "text": "孟加拉国"
+      },
+      {
+        "code": "PER",
+        "text": "秘鲁"
+      },
+      {
+        "code": "FSM",
+        "text": "密克罗尼西亚"
+      },
+      {
+        "code": "MMR",
+        "text": "缅甸"
+      },
+      {
+        "code": "MDA",
+        "text": "摩尔多瓦"
+      },
+      {
+        "code": "MAR",
+        "text": "摩洛哥"
+      },
+      {
+        "code": "MCO",
+        "text": "摩纳哥"
+      },
+      {
+        "code": "MOZ",
+        "text": "莫桑比克"
+      },
+      {
+        "code": "MEX",
+        "text": "墨西哥"
+      },
+      {
+        "code": "NAM",
+        "text": "纳米比亚"
+      },
+      {
+        "code": "ZAF",
+        "text": "南非"
+      },
+      {
+        "code": "ATA",
+        "text": "南极洲"
+      },
+      {
+        "code": "SGS",
+        "text": "南乔治亚岛和南桑德韦奇岛"
+      },
+      {
+        "code": "NPL",
+        "text": "尼泊尔"
+      },
+      {
+        "code": "NIC",
+        "text": "尼加拉瓜"
+      },
+      {
+        "code": "NER",
+        "text": "尼日尔"
+      },
+      {
+        "code": "NGA",
+        "text": "尼日利亚"
+      },
+      {
+        "code": "NIU",
+        "text": "纽埃"
+      },
+      {
+        "code": "NOR",
+        "text": "挪威"
+      },
+      {
+        "code": "NFK",
+        "text": "诺福克岛"
+      },
+      {
+        "code": "PCN",
+        "text": "皮特凯恩群岛"
+      },
+      {
+        "code": "PRT",
+        "text": "葡萄牙"
+      },
+      {
+        "code": "JPN",
+        "text": "日本"
+      },
+      {
+        "code": "SWE",
+        "text": "瑞典"
+      },
+      {
+        "code": "CHE",
+        "text": "瑞士"
+      },
+      {
+        "code": "SLV",
+        "text": "萨尔瓦多"
+      },
+      {
+        "code": "SLE",
+        "text": "塞拉利昂"
+      },
+      {
+        "code": "SEN",
+        "text": "塞内加尔"
+      },
+      {
+        "code": "CYP",
+        "text": "塞浦路斯"
+      },
+      {
+        "code": "SYC",
+        "text": "塞舌尔"
+      },
+      {
+        "code": "SAU",
+        "text": "沙特阿拉伯"
+      },
+      {
+        "code": "CXR",
+        "text": "圣诞岛"
+      },
+      {
+        "code": "STP",
+        "text": "圣多美和普林西比"
+      },
+      {
+        "code": "SHN",
+        "text": "圣赫勒拿"
+      },
+      {
+        "code": "KNA",
+        "text": "圣基茨和尼维斯"
+      },
+      {
+        "code": "MDV",
+        "text": "马尔代夫"
+      },
+      {
+        "code": "LCA",
+        "text": "圣卢西亚"
+      },
+      {
+        "code": "SMR",
+        "text": "圣马力诺"
+      },
+      {
+        "code": "SPM",
+        "text": "圣皮埃尔和密克隆"
+      },
+      {
+        "code": "VCT",
+        "text": "圣文森特和格林纳丁斯"
+      },
+      {
+        "code": "LKA",
+        "text": "斯里兰卡"
+      },
+      {
+        "code": "SVK",
+        "text": "斯洛伐克"
+      },
+      {
+        "code": "SVN",
+        "text": "斯洛文尼亚"
+      },
+      {
+        "code": "SJM",
+        "text": "斯瓦尔巴群岛和扬马群岛"
+      },
+      {
+        "code": "SWZ",
+        "text": "斯威士兰"
+      },
+      {
+        "code": "SDN",
+        "text": "苏丹"
+      },
+      {
+        "code": "SUR",
+        "text": "苏里南"
+      },
+      {
+        "code": "SOM",
+        "text": "索马里"
+      },
+      {
+        "code": "SLB",
+        "text": "所罗门群岛"
+      },
+      {
+        "code": "TJK",
+        "text": "塔吉克斯坦"
+      },
+      {
+        "code": "THA",
+        "text": "泰国"
+      },
+      {
+        "code": "TZA",
+        "text": "坦桑尼亚"
+      },
+      {
+        "code": "TON",
+        "text": "汤加"
+      },
+      {
+        "code": "TCA",
+        "text": "特克斯和凯科斯群岛"
+      },
+      {
+        "code": "TTO",
+        "text": "特立尼达和多巴哥"
+      },
+      {
+        "code": "TUN",
+        "text": "突尼斯"
+      },
+      {
+        "code": "TUV",
+        "text": "图瓦卢"
+      },
+      {
+        "code": "TUR",
+        "text": "土耳其"
+      },
+      {
+        "code": "TKM",
+        "text": "土库曼斯坦"
+      },
+      {
+        "code": "TKL",
+        "text": "托克劳"
+      },
+      {
+        "code": "WLF",
+        "text": "瓦利斯和富图纳群岛"
+      },
+      {
+        "code": "VUT",
+        "text": "瓦努阿图"
+      },
+      {
+        "code": "GTM",
+        "text": "危地马拉"
+      },
+      {
+        "code": "VEN",
+        "text": "委内瑞拉"
+      },
+      {
+        "code": "BRN",
+        "text": "文莱"
+      },
+      {
+        "code": "UGA",
+        "text": "乌干达"
+      },
+      {
+        "code": "UKR",
+        "text": "乌克兰"
+      },
+      {
+        "code": "URY",
+        "text": "乌拉圭"
+      },
+      {
+        "code": "UZB",
+        "text": "乌兹别克斯坦"
+      },
+      {
+        "code": "ESP",
+        "text": "西班牙"
+      },
+      {
+        "code": "ESH",
+        "text": "西撒哈拉"
+      },
+      {
+        "code": "WSM",
+        "text": "西萨摩亚"
+      },
+      {
+        "code": "GRC",
+        "text": "希腊"
+      },
+      {
+        "code": "SGP",
+        "text": "新加坡"
+      },
+      {
+        "code": "NCL",
+        "text": "新喀里多尼亚"
+      },
+      {
+        "code": "NZL",
+        "text": "新西兰"
+      },
+      {
+        "code": "HUN",
+        "text": "匈牙利"
+      },
+      {
+        "code": "SYR",
+        "text": "叙利亚"
+      },
+      {
+        "code": "JAM",
+        "text": "牙买加"
+      },
+      {
+        "code": "ARM",
+        "text": "亚美尼亚"
+      },
+      {
+        "code": "SCG",
+        "text": "塞尔维亚和黑山"
+      },
+      {
+        "code": "NRU",
+        "text": "瑙鲁"
+      },
+      {
+        "code": "ALB",
+        "text": "阿尔巴尼亚"
+      },
+      {
+        "code": "DZA",
+        "text": "阿尔及利亚"
+      },
+      {
+        "code": "AFG",
+        "text": "阿富汗"
+      },
+      {
+        "code": "ARG",
+        "text": "阿根廷"
+      },
+      {
+        "code": "ARE",
+        "text": "阿联酋"
+      },
+      {
+        "code": "ABW",
+        "text": "阿鲁巴"
+      },
+      {
+        "code": "OMN",
+        "text": "阿曼"
+      },
+      {
+        "code": "AZE",
+        "text": "阿塞拜疆"
+      },
+      {
+        "code": "EGY",
+        "text": "埃及"
+      },
+      {
+        "code": "ETH",
+        "text": "埃塞俄比亚"
+      },
+      {
+        "code": "IRL",
+        "text": "爱尔兰"
+      },
+      {
+        "code": "EST",
+        "text": "爱沙尼亚"
+      },
+      {
+        "code": "AND",
+        "text": "安道尔"
+      },
+      {
+        "code": "AGO",
+        "text": "安哥拉"
+      },
+      {
+        "code": "AIA",
+        "text": "安圭拉"
+      },
+      {
+        "code": "ATG",
+        "text": "安提瓜和巴布达"
+      },
+      {
+        "code": "AUT",
+        "text": "奥地利"
+      },
+      {
+        "code": "AUS",
+        "text": "澳大利亚"
+      },
+      {
+        "code": "BRB",
+        "text": "巴巴多斯"
+      },
+      {
+        "code": "PNG",
+        "text": "巴布亚新几内亚"
+      },
+      {
+        "code": "BHS",
+        "text": "巴哈马"
+      },
+      {
+        "code": "PAK",
+        "text": "巴基斯坦"
+      },
+      {
+        "code": "PRY",
+        "text": "巴拉圭"
+      },
+      {
+        "code": "PSE",
+        "text": "巴勒斯坦"
+      },
+      {
+        "code": "BHR",
+        "text": "巴林"
+      },
+      {
+        "code": "PAN",
+        "text": "巴拿马"
+      },
+      {
+        "code": "BRA",
+        "text": "巴西"
+      },
+      {
+        "code": "BLR",
+        "text": "白俄罗斯"
+      },
+      {
+        "code": "BMU",
+        "text": "百慕大"
+      },
+      {
+        "code": "BGR",
+        "text": "保加利亚"
+      },
+      {
+        "code": "MNP",
+        "text": "北马里亚纳"
+      },
+      {
+        "code": "PLW",
+        "text": "帕劳"
+      },
+      {
+        "code": "BEN",
+        "text": "贝宁"
+      },
+      {
+        "code": "BEL",
+        "text": "比利时"
+      },
+      {
+        "code": "ISL",
+        "text": "冰岛"
+      },
+      {
+        "code": "PRI",
+        "text": "波多黎各"
+      },
+      {
+        "code": "POL",
+        "text": "波兰"
+      },
+      {
+        "code": "BOL",
+        "text": "玻利维亚"
+      },
+      {
+        "code": "BIH",
+        "text": "波斯尼亚和黑塞哥维那"
+      },
+      {
+        "code": "BWA",
+        "text": "博茨瓦纳"
+      },
+      {
+        "code": "BLZ",
+        "text": "伯利兹"
+      },
+      {
+        "code": "BTN",
+        "text": "不丹"
+      },
+      {
+        "code": "BFA",
+        "text": "布基纳法索"
+      },
+      {
+        "code": "BDI",
+        "text": "布隆迪"
+      },
+      {
+        "code": "BVT",
+        "text": "布维岛"
+      },
+      {
+        "code": "PRK",
+        "text": "朝鲜"
+      },
+      {
+        "code": "GNQ",
+        "text": "赤道几内亚"
+      },
+      {
+        "code": "DNK",
+        "text": "丹麦"
+      },
+      {
+        "code": "DEU",
+        "text": "德国"
+      },
+      {
+        "code": "TMP",
+        "text": "东帝汶"
+      },
+      {
+        "code": "TGO",
+        "text": "多哥"
+      },
+      {
+        "code": "DOM",
+        "text": "多米尼加共和国"
+      },
+      {
+        "code": "DMA",
+        "text": "多米尼克"
+      },
+      {
+        "code": "RUS",
+        "text": "俄罗斯"
+      },
+      {
+        "code": "ECU",
+        "text": "厄瓜多尔"
+      },
+      {
+        "code": "ERI",
+        "text": "厄立特里亚"
+      },
+      {
+        "code": "FRA",
+        "text": "法国"
+      },
+      {
+        "code": "FRO",
+        "text": "法罗群岛"
+      },
+      {
+        "code": "PYF",
+        "text": "法属波利尼西亚"
+      },
+      {
+        "code": "GUF",
+        "text": "法属圭亚那"
+      },
+      {
+        "code": "ATF",
+        "text": "法属南部领土"
+      },
+      {
+        "code": "VAT",
+        "text": "梵蒂冈"
+      },
+      {
+        "code": "PHL",
+        "text": "菲律宾"
+      },
+      {
+        "code": "FJI",
+        "text": "斐济"
+      },
+      {
+        "code": "FIN",
+        "text": "芬兰"
+      },
+      {
+        "code": "CPV",
+        "text": "佛得角"
+      },
+      {
+        "code": "GMB",
+        "text": "冈比亚"
+      },
+      {
+        "code": "COD",
+        "text": "刚果（金）"
+      },
+      {
+        "code": "COG",
+        "text": "刚果（布）"
+      },
+      {
+        "code": "COL",
+        "text": "哥伦比亚"
+      },
+      {
+        "code": "CRI",
+        "text": "哥斯达黎加"
+      },
+      {
+        "code": "GRD",
+        "text": "格林纳达"
+      },
+      {
+        "code": "GRL",
+        "text": "格陵兰"
+      },
+      {
+        "code": "GEO",
+        "text": "格鲁吉亚"
+      },
+      {
+        "code": "CUB",
+        "text": "古巴"
+      },
+      {
+        "code": "GLP",
+        "text": "瓜德罗普"
+      },
+      {
+        "code": "GUM",
+        "text": "关岛"
+      },
+      {
+        "code": "GUY",
+        "text": "圭亚那"
+      },
+      {
+        "code": "KAZ",
+        "text": "哈萨克斯坦"
+      },
+      {
+        "code": "HTI",
+        "text": "海地"
+      },
+      {
+        "code": "KOR",
+        "text": "韩国"
+      },
+      {
+        "code": "NLD",
+        "text": "荷兰"
+      },
+      {
+        "code": "ANT",
+        "text": "荷属安的列斯"
+      },
+      {
+        "code": "HMD",
+        "text": "赫德岛和麦克唐纳岛"
+      },
+      {
+        "code": "HND",
+        "text": "洪都拉斯"
+      },
+      {
+        "code": "KIR",
+        "text": "基里巴斯"
+      },
+      {
+        "code": "DJI",
+        "text": "吉布提"
+      },
+      {
+        "code": "KGZ",
+        "text": "吉尔吉斯斯坦"
+      },
+      {
+        "code": "GIN",
+        "text": "几内亚"
+      },
+      {
+        "code": "GIB",
+        "text": "直布罗陀"
+      },
+      {
+        "code": "CHL",
+        "text": "智利"
+      },
+      {
+        "code": "CAF",
+        "text": "中非"
+      }
+    ]
+  }
+}

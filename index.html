@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+    <title>光大永明人寿</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" href="./static/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/alert.css">
+    <link rel="stylesheet" type="text/css" href="static/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="static/css/alert_n22_style.css"/>
+    <script src="static/js/jquery-3.4.1.min.js"></script>
+    <script src="static/js/alert.js"></script>
+    <script src="cordova.js"></script>
+    <script src="static/js/anysignWebInterface.js"></script>
+    <script src="static/js/sign_util.js"></script>
+    <script src="static/js/cordova_camera.js"></script>
+    <script src="static/js/cordova_file.js"></script>
+    <script src="static/js/echarts.js"></script>
+    <script src="static/js/echarts_util.js"></script>
+		<script src="static/js/alert_n22.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="http://webapi.amap.com/maps?v=1.4.6&key=1690ac77f2acbd06e7615b692ccfbe4c"></script>
+    <script src="static/js/amap_util.js"></script>
+    <script src="static/js/qrcode.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("backbutton", onBackKeyDown, false);
+      function onBackKeyDown(e) {
+         e.preventDefault();
+      }
+    </script>
+    <style type="text/css">
+      	body.modal-open {
+          /* position: fixed; */
+          width: 100%;
+      	}
+        .mint-msgbox{
+          -webkit-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
+        }
+        .mint-popup {
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+       }
+       .mint-actionsheet{
+        transform: translate(-50%,0);
+       }
+       input{
+       	cursor:pointer;
+       }
+       body,
+       #v-header,.v-header,
+       .manage-main-contents,
+       .service-guide,
+       .footer-content,
+       .main-contents,
+       .footerBar,
+       .footerBars{
+       	max-width:768px!important;
+       	margin:0 auto!important;
+       }
+       #app{
+       	margin:48px 0!important;
+       }
+    </style>
+  </head>
+  <body style="font-size:12px;">
+  <div id="app">
+    <div style="position:absolute;width:100%;height:100%;display:flex;justify-content:center;align-items:center;">
+      <img style="width:100%;height:100%;" src="static/img/common/loading.png" />
+    </div>
+  </div>
+  </body>
+  <script>
+    $('body').on('click',$('input'),function (e) {
+	    if(e.target.tagName == 'INPUT' && e.target.getAttribute('type')=='text' || e.target.getAttribute('type')=='number' || e.target.getAttribute('type')=='password' || !e.target.getAttribute('type')){
+				e.target.focus();
+			}
+    })
+  document.addEventListener('deviceready', function () {
+    console.log('Device is Ready!');
+    try {
+    	//初始化
+	    window.JPush.init()
+	    //开启调试
+	    window.JPush.setDebugMode(true)
+	    //停止服务后恢复
+	    window.JPush.isPushStopped(function (result){
+			  if (result == 0) {
+			    // 开启
+			    console.log('推送服务正常')
+			  } else {
+			    // 关闭
+			    window.JPush.resumePush()
+			  }
+			})
+	    // 获取点击通知内容
+	    document.addEventListener("jpush.openNotification", (event) => {
+	      let alertContent
+	      if (device.platform == "Android") {
+	        alertContent = event.alert
+	        console.log(alertContent)
+	      } else {
+	        alertContent = event.aps.alert
+	        console.log(alertContent)
+	      }
+	      window.localStorage.setItem('HAVENEWMSG', 'HAVENEWMSG')
+	      //			  alert("open Notification:" + alertContent)
+	    }, false)
+	    // 获取通知内容
+	    document.addEventListener("jpush.receiveNotification", (event) => {
+	      let alertContent
+	      if (device.platform == "Android") {
+	        alertContent = event.alert
+	      } else {
+	        alertContent = event.aps.alert
+	      }
+	      //			  window.localStorage.setItem('HAVENEWMSG', 'HAVENEWMSG')
+	      //			  alert("open Notification:" + alertContent)
+	    }, false)
+	    // 获取自定义消息推送内容
+	    document.addEventListener("jpush.receiveMessage", (event) => {
+	      let message
+	      if(window.location.href.indexOf('/logins/login')>-1){
+	      }else{
+	    		if (device.platform == "Android") {
+		        message = event.message;
+		        extras = event.extras;
+		        console.log(message + '/' + extras)
+		        if (extras.noticeType == 4) {
+		          alert_n22.alert("光大永明提醒您！", "" + extras.noticeTheme + "<br>" + extras.noticeMsg, "确定")
+		        } else if (extras.noticeType == 9) {
+		          alert_n22.alert("光大永明提醒您！", "" + extras.noticeTheme + "<br>" + extras.noticeMsg, "确定")
+		        } else {
+		          alert_n22.alert("光大永明提醒您！", "" + extras.noticeTheme + "<br>" + extras.noticeContent, "确定")
+		        }
+		      } else {
+		        message = event.content;
+		        content = event.extras;
+		        console.log(message + '/' + content)
+		        if (content.noticeType == 4) {
+		          alert_n22.alert("光大永明提醒您！", "" + content.noticeTheme + "<br>" + content.noticeMsg, "确定")
+		        } else if (content.noticeType == 9) {
+		          alert_n22.alert("光大永明提醒您！", "" + content.noticeTheme + "<br>" + content.noticeMsg, "确定")
+		        } else {
+		          alert_n22.alert("光大永明提醒您！", "" + content.noticeTheme + "<br>" + content.noticeContent, "确定")
+		        }
+		      }
+	      }
+	    }, false)
+	    window.JPush.getUserNotificationSettings((result) => {
+	      if (result == 0) {
+	        // 系统设置中已关闭应用推送。
+	        console.log('系统设置中已关闭应用推送。')
+	      } else if (result > 0) {
+	        // 系统设置中打开了应用推送。
+	        console.log('系统设置中打开了应用推送。')
+	      }
+	    })
+	  } catch (err) {
+	    console.log('初始化推送异常')
+	    console.log(err)
+	  }
+  }, false);
+</script>
+
+</html>

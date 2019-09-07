@@ -1,0 +1,38 @@
+{
+    "downInfo": {
+        "item": [
+            {
+                "children": [
+                    {
+                        "downUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/11(1).jpg",
+                        "qrCodeUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/11(1).jpg",
+                        "sys": "Android系统"
+                    },
+                    {
+                        "downUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/7-277x170(1)(2).jpg",
+                        "qrCodeUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/7-277x170(1)(2).jpg",
+                        "sys": "Ios系统"
+                    }
+                ],
+                "isopen": true,
+                "title": "移动展业系统"
+            },
+            {
+                "children": [
+                    {
+                        "downUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/7.jpg",
+                        "qrCodeUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/7.jpg",
+                        "sys": "Android系统"
+                    },
+                    {
+                        "downUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/277x170.jpg",
+                        "qrCodeUrl": "http://www.sunlife-everbright.com/sleb/resource/cms/2017/12/img_pc_site/277x170.jpg",
+                        "sys": "Ios系统"
+                    }
+                ],
+                "isopen": true,
+                "title": "手机电投系统"
+            }
+        ]
+    }
+}

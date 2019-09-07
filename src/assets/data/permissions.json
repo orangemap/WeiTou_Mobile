@@ -1,0 +1,18 @@
+{
+    "sysVersion":{
+		"ver":""
+    },
+    "channel":{
+        "proposal":"ALL",
+        "policy":"01,03,04,05,06,11,00,02,13"
+    },
+    "accountNum":{
+        
+    },
+    "openModel":{
+    	"model":"zxtb,dbsx,zhcx,grzx"
+    },
+    "policy":{
+    	"code":""
+    }
+}
