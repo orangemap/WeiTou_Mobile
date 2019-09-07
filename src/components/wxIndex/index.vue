@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-wraaper">
     <div class="header-img">
       <img src="static/img/wxIndex/wx_index_1.png" alt />
     </div>
@@ -50,8 +50,10 @@
       </div>
     </section>
     <footer class="container">
-      <div class="btn-item" v-if="isRemoveBind" @click="removeBind()">解除绑定</div>
-      <div class="btn-item" v-if="!isRemoveBind" @click="go('/logins/login')">登录</div>
+      <Button :isRemoveBind="RemoveBind" 
+      @removeBindEvent="removeBind"
+      @login="go('/logins/login')">
+      </Button>
     </footer>
   </div>
 </template>
@@ -63,7 +65,7 @@ export default {
   props: {},
   data() {
     return {
-      isRemoveBind: true,
+      RemoveBind: false,
       isLogin: false
     };
   },
@@ -89,6 +91,9 @@ export default {
 </script>
 
 <style type="text/css" lang="scss" scoped>
+.content-wraaper {
+  position: relative;
+}
 .header-img {
   width: 100%;
   img {
@@ -142,12 +147,12 @@ export default {
   }
 }
 .container {
+  position: fixed;
   width: 90%;
   height: 50px;
   margin-left: 5%;
   line-height: 50px;
   background: #ffd166;
-  position: fixed;
   bottom: 0;
   color: #fff;
   font-size: 16px;
